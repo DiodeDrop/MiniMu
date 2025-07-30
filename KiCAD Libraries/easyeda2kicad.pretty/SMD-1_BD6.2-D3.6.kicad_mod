@@ -1,0 +1,139 @@
+(footprint "SMD-1_BD6.2-D3.6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "8af926ea-cfd9-4424-ab80-c01d09dd237e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD-1_BD6.2-D3.6"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "997259b7-747f-46f7-b981-6cc5cc467c54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90f16054-9fe4-4091-89cf-01b9c178351e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c8e3b24-9b58-4e1c-8704-14c1048e2a6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34778ccb-68c2-40c6-94c8-d5f564ab7dd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.6 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c416ad05-3304-4d0d-8785-7b5c97ddafd8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.75 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7305ffcb-9faa-40dc-8347-50c58f0870c5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 1.8)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bdffb3f9-314a-407f-96e7-c87776cec58e")
+	)
+	(fp_circle
+		(center 3.1 -3.1)
+		(end 3.13 -3.1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "983db8eb-29e1-4281-a040-2e9cb05ea636")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "18cf9d27-3cb1-464b-9424-25dd508a97ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 3.999992)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "03e431df-03d7-4f90-8fb0-99e792fdd4d0")
+	)
+	(model "${KIPRJMOD}/ProjectLibrary/easyeda2kicad.3dshapes/SMD-1_BD6.2-D3.6.wrl"
+		(offset
+			(xyz 0 -0 -1)
+		)
+		(scale
+			(xyz 1 1 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

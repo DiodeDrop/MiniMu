@@ -1,0 +1,88 @@
+(footprint "Pin_Fiducial"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d433b7cb-b9e1-4f5c-9abb-d23a62136cd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pin Fiducial"
+		(at 0.01 2.36 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f8eb0333-b601-421e-9924-dc791930b8ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b293c695-d6b3-474c-b579-41d08110cad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fd13d97-790f-4d2f-ab11-74501076f135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2c254dcd-f034-4e3d-bb46-bb3ecb2c6934")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 3.96 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "afcb343a-f4d0-4064-bf71-9953515ae2e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Paste" "*.Mask")
+		(uuid "802896b7-1b0e-44c8-bf2b-744d5bcbb07d")
+	)
+	(embedded_fonts no)
+)
